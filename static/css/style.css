@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 245, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content .wrap{
+    background: rgb(166, 155, 141);
+    padding: 40px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.header{
+    background: rgb(166, 155, 141);
+   
+}
+.mainmenu{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.logo{
+    flex-basis: 40%;
+}
+.last{
+    flex-basis: 30%;
+    text-align: right;
+    
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.sidebar ul{
+    width: 320px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.sidebar a{
+    padding: 20px;
+    display: block;
+    border: 1px solid rgb(52, 52, 52);
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+.selected{
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid white;
+    font-weight: bold;
+    background: rgb(166, 155, 141);
+}
+.main li{
+    border: 1px solid rgb(166, 155, 141);
+    margin-bottom: 40px;
+}
+.first, .date{
+    padding: 10px 20px;
+    background: rgb(166, 155, 141);
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+.image{
+    float: left;
+    margin-right: 20px;
+    max-width: 50%;
+
+}
+.photo{
+    max-width: 100%;
+}
+.text{
+    padding: 20px 20px 0;
+}
+.text a{
+    padding-left: 0;
+    color: rgb(61, 61, 61);
+}
+.text a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.post h1{
+    margin-top: 0;
+}
+.post{
+    font-size: 16px;
+}
+.form-input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button{
+    background: rgb(61, 61, 61);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+form label{
+    font-size: 18px;
+}
+
+.list-pages{
+    display: flex;
+    justify-content: center;
+
+}
+.list-pages .page-num-selected{
+    background: rgb(73, 73, 73);
+    padding: 20px;
+}
+.list-pages a{
+    background: rgb(88, 88, 88);
+    padding: 20px;
+    display: block;
+    color: white;
+}
+.page-num{
+    margin: 6px;
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 100%;
+    margin-top: 6px;
+    padding: 6px;
+    box-sizing: border-box;
+
+}
+
+label{
+    font-size: 20px;
+}
+
+#id_is_published{
+    width: 20px;
+    height: 20px;
+}
+
+#id_cat{
+    font-size: 20px;
+    padding: 4px;
+}
+.last a{
+    display: inline;
+}
+
+.logout h2{
+    margin-bottom: 40px;
+}
+.logout a{
+    font-size: 20px;
+    color: black;
+    background: rgb(175, 175, 175);
+    font-weight: bold;
+    padding: 20px 86px;
+    
+}
+
+
+
+
+
+
+
+
+

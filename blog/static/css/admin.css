@@ -1,0 +1,6 @@
+#header, .module caption{
+    background: rgb(255, 202, 211);
+}
+a:link, a:visited{
+    color: hsl(350, 100%, 61%);
+}
